@@ -124,8 +124,8 @@ Download the project materials from our GitHub repository. You can get download 
 
     git clone https://github.com/Hoangvo92/Bikesharing-project.git
  
-  cd into the Bikesharing-project directory.
-
+    cd  Bikesharing-project 
+    
 Create a new conda environment:
     conda create --name deep-learning python=3
 Enter your new environment:
