@@ -127,14 +127,18 @@ Download the project materials from our GitHub repository. You can get download 
   cd into the Bikesharing-project directory.
 
 Create a new conda environment:
-conda create --name deep-learning python=3
+    conda create --name deep-learning python=3
 Enter your new environment:
+
       Mac/Linux: >> source activate deep-learning
       Windows: >> activate deep-learning
+      
 Ensure you have numpy, matplotlib, pandas, and jupyter notebook installed by doing the following:
-     conda install numpy matplotlib pandas jupyter notebook
-Run the following to open up the notebook server:
-    jupyter notebook
-In your browser, open Predicting_bike_sharing_data.ipynb. 
 
-Run all cells inside the notebook. You can update the new dataset for business usage.
+     conda install numpy matplotlib pandas jupyter notebook
+     
+Run the following to open up the notebook server:
+
+     jupyter notebook
+     
+In your browser, open Predicting_bike_sharing_data.ipynb. Run all cells inside the notebook. You can update the new dataset for business usage.
